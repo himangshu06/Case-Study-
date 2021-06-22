@@ -1,0 +1,247 @@
+
+<html>
+    <head>
+      <title>MobileNet</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  
+      <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+  
+      <link rel="stylesheet" type="text/css" href="style.css">
+      <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    </head>
+  
+    <body>
+      <center>
+     <div class="col-xs-12 header_div">
+       <h2>Case Study
+         <img src="low poly mac image.png">
+       </h2>
+     </div>
+     <ol>
+         <div class="text_images_and_result">
+
+<img id="kivita" src="sun.gif">
+
+             <li>
+                 <b>Test Image-</b><img src="water_bottle_image.jpg" class="img-responsive">
+             </li>
+             <h5 style="background:linear-gradient(to left,black,grey); color:white;">Output on<b>Microsoft Azure - </b>
+         <span>Bottle</span>
+         <h5 style="background:linear-gradient(to left,black,grey); color:white;">confidence on<b>Microsoft Azure - </b>
+          <span>89.2</span>
+         </h5>
+         <h5 style="background:linear-gradient(to left,black,grey); color:white;">Output on<b>MobileNet Model - </b>
+        <span>Water Bottle</span>
+        <h5 style="background:linear-gradient(to left,black,grey); color:white;">confidence on<b>MobileNet Model - </b>
+          <span>91.9</span>
+        </h5>
+        <div class="bob3">
+            <h4>Result-</h4>
+            <hr>
+            <h4>MobileNet is more Accurate</h4>
+        </div>
+            </div>
+            <br>
+            <br>
+            <div class="text_images_and_result">
+              <li>
+                  <b>Test Image-</b><img src="lambogini urus.jpg" class="img-responsive">
+              </li>
+              <h5 style="background:linear-gradient(to left,black,grey); color:white;">Output on<b>Microsoft Azure - </b>
+          <span>Car SUV</span>
+          <h5 style="background:linear-gradient(to left,black,grey); color:white;">confidence on<b>Microsoft Azure - </b>
+           <span>61.2</span>
+          </h5>
+          <h5 style="background:linear-gradient(to left,black,grey); color:white;">Output on<b>MobileNet Model - </b>
+         <span>2019 Lambogini Urus SUV</span>
+         <h5 style="background:linear-gradient(to left,black,grey); color:white;">confidence on<b>MobileNet Model - </b>
+           <span>98.21</span>
+         </h5>
+         <div class="bob3">
+             <h4>Result-</h4>
+             <hr>
+             <h4>MobileNet is more Accurate</h4>
+         </div>
+             </div>
+             <br>
+            <br>
+            <div class="text_images_and_result">
+              <li>
+                  <b>Test Image-</b><img src="iphone12pro.jpg" class="img-responsive">
+              </li>
+              <h5 style="background:linear-gradient(to left,black,grey); color:white;">Output on<b>Microsoft Azure - </b>
+          <span>phone</span>
+          <h5 style="background:linear-gradient(to left,black,grey); color:white;">confidence on<b>Microsoft Azure - </b>
+           <span>97</span>
+          </h5>
+          <h5 style="background:linear-gradient(to left,black,grey); color:white;">Output on<b>MobileNet Model - </b>
+         <span>Phone</span>
+         <h5 style="background:linear-gradient(to left,black,grey); color:white;">confidence on<b>MobileNet Model - </b>
+           <span>97</span>
+         </h5>
+         <div class="bob3">
+             <h4>Result-</h4>
+             <hr>
+             <h4>Both are correct and equal</h4>
+         </div>
+             </div>
+             <br>
+            <br>
+            <div class="text_images_and_result">
+              <li>
+                  <b>Test Image-</b><img src="watch imaeg.jpeg" class="img-responsive">
+              </li>
+              <h5 style="background:linear-gradient(to left,black,grey); color:white;">Output on<b>Microsoft Azure - </b>
+          <span>watch</span>
+          <h5 style="background:linear-gradient(to left,black,grey); color:white;">confidence on<b>Microsoft Azure - </b>
+           <span>89.2</span>
+          </h5>
+          <h5 style="background:linear-gradient(to left,black,grey); color:white;">Output on<b>MobileNet Model - </b>
+         <span>fitness tracker</span>
+         <h5 style="background:linear-gradient(to left,black,grey); color:white;">confidence on<b>MobileNet Model - </b>
+           <span>76.2</span>
+         </h5>
+         <div class="bob3">
+             <h4>Result-</h4>
+             <hr>
+             <h4>Microsoft Azure is more Accurate</h4>
+         </div>
+             </div>
+             <br>
+            <br>
+            <div class="text_images_and_result">
+              <li>
+                  <b>Test Image-</b><img src="airplane image.jpg" class="img-responsive">
+              </li>
+              <h5 style="background:linear-gradient(to left,black,grey); color:white;">Output on<b>Microsoft Azure - </b>
+          <span>Airplane</span>
+          <h5 style="background:linear-gradient(to left,black,grey); color:white;">confidence on<b>Microsoft Azure - </b>
+           <span>91.1</span>
+          </h5>
+          <h5 style="background:linear-gradient(to left,black,grey); color:white;">Output on<b>MobileNet Model - </b>
+         <span>Plane</span>
+         <h5 style="background:linear-gradient(to left,black,grey); color:white;">confidence on<b>MobileNet Model - </b>
+           <span>81.12</span>
+         </h5>
+         <div class="bob3">
+             <h4>Result-</h4>
+             <hr>
+             <h4>microsoft Azure is more Accurate is more Accurate</h4>
+         </div>
+             </div>
+             <br>
+            <br>
+            <div class="text_images_and_result">
+              <li>
+                  <b>Test Image-</b><img src="helicopter image.jpg" class="img-responsive">
+              </li>
+              <h5 style="background:linear-gradient(to left,black,grey); color:white;">Output on<b>Microsoft Azure - </b>
+          <span>helicopter</span>
+          <h5 style="background:linear-gradient(to left,black,grey); color:white;">confidence on<b>Microsoft Azure - </b>
+           <span>89.2</span>
+          </h5>
+          <h5 style="background:linear-gradient(to left,black,grey); color:white;">Output on<b>MobileNet Model - </b>
+         <span>helicopter</span>
+         <h5 style="background:linear-gradient(to left,black,grey); color:white;">confidence on<b>MobileNet Model - </b>
+           <span>91.3</span>
+         </h5>
+         <div class="bob3">
+             <h4>Result-</h4>
+             <hr>
+             <h4>both are correct but MobileNet has more confidence </h4>
+         </div>
+             </div>
+             <br>
+            <br>
+            <div class="text_images_and_result">
+              <li>
+                  <b>Test Image-</b><img src="pen.jpg" class="img-responsive">
+              </li>
+              <h5 style="background:linear-gradient(to left,black,grey); color:white;">Output on<b>Microsoft Azure - </b>
+          <span>Pen</span>
+          <h5 style="background:linear-gradient(to left,black,grey); color:white;">confidence on<b>Microsoft Azure - </b>
+           <span>100</span>
+          </h5>
+          <h5 style="background:linear-gradient(to left,black,grey); color:white;">Output on<b>MobileNet Model - </b>
+         <span>pen</span>
+         <h5 style="background:linear-gradient(to left,black,grey); color:white;">confidence on<b>MobileNet Model - </b>
+           <span>100</span>
+         </h5>
+         <div class="bob3">
+             <h4>Result-</h4>
+             <hr>
+             <h4>both are correct</h4>
+         </div>
+             </div>
+             <br>
+            <br>
+            <div class="text_images_and_result">
+              <li>
+                  <b>Test Image-</b><img src="rose image.jpg" class="img-responsive">
+              </li>
+              <h5 style="background:linear-gradient(to left,black,grey); color:white;">Output on<b>Microsoft Azure - </b>
+          <span>flower</span>
+          <h5 style="background:linear-gradient(to left,black,grey); color:white;">confidence on<b>Microsoft Azure - </b>
+           <span>89.2</span>
+          </h5>
+          <h5 style="background:linear-gradient(to left,black,grey); color:white;">Output on<b>MobileNet Model - </b>
+         <span>rose</span>
+         <h5 style="background:linear-gradient(to left,black,grey); color:white;">confidence on<b>MobileNet Model - </b>
+           <span>91.9</span>
+         </h5>
+         <div class="bob3">
+             <h4>Result-</h4>
+             <hr>
+             <br>
+             <h4>MobileNet is more Accurate</h4>
+         </div>
+             </div>
+             
+          <h6>Credits- 
+            Developed By incredible studios 
+
+            and 
+
+            Kivita Roboticts and Technology
+
+            and 
+
+            Himangshu
+          </h6>
+          <br>
+          <br>
+          <div style="background:linear-gradient(to left,rgb(9, 152, 247),rgb(234, 0, 255)); color:white;">
+           <h1>Case Study by Incredible Studio - results</h1>
+           <hr>
+           <h2>8 Images Have Been Used for This case study This Project has been Verififed By incredible Studios 
+              <hr>
+           <hr><h1 style="color:lime">MobileNet<h1 class="text-danger"> Has Won this Case study by more 4 points then microsofts</h1> </h1> </h2>
+        </div>
+        <br>
+        <hr>
+     </ol>
+     </center>
+  
+  <div class="copy_right_footer">
+    Developed by- Incredible Studios and Kivita Roboticts and Technology
+  </div>
+  
+      
+  <script src="main.js"></script>
+    </body>
+  </html>
+  
+  
+  
+  
+  
+  
+  
+  
+   
+  
+  
